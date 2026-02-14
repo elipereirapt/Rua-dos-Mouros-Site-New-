@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rua dos Mouros 41 | Luxury Real Estate Lisbon</title>
+    
+    <!-- SEO & Metatags -->
+    <meta name="description" content="Exceptional Investment in Prime Lisbon City Centre. Luxury Apartment with Garden in Bairro Alto. Discover this exclusive property near Chiado and Príncipe Real." />
+    <meta name="keywords" content="Rua dos Mouros 41, Luxury Real Estate Lisbon, Bairro Alto Property, Lisbon Apartments for Sale, Golden Visa Portugal, Chiado Real Estate, Príncipe Real Homes, Garden Apartment Lisbon, Investment Property Portugal, Exclusive Homes Lisbon, Luxury Portfolio, Historic Lisbon Property" />
+    <meta name="author" content="Luxury Real Estate Lisbon" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.ruadosmouros41.com/" />
+    <meta property="og:title" content="Rua dos Mouros 41 | Luxury Real Estate Lisbon" />
+    <meta property="og:description" content="A rare gem in Lisbon's historic center. 3-bedroom luxury residence with a private 136sqm garden." />
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=1" />
+    <meta property="og:site_name" content="Rua dos Mouros 41" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.ruadosmouros41.com/" />
+    <meta property="twitter:title" content="Rua dos Mouros 41 | Luxury Real Estate Lisbon" />
+    <meta property="twitter:description" content="Exceptional Investment in Prime Lisbon City Centre. Luxury Apartment with Garden in Bairro Alto." />
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?random=1" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <!-- Google Fonts: Playfair Display (Serif) & Lato (Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              charcoal: '#111111',
+              ivory: '#F5F3EE',
+              gold: '#D4AF37',
+              'gold-dim': '#B5952F',
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Lato"', 'sans-serif'],
+            },
+            letterSpacing: {
+              'lux': '0.2em',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth Scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Custom selection color */
+      ::selection {
+        background: #D4AF37;
+        color: #fff;
+      }
+      .fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      /* Leaflet Custom Overrides for Minimalist Look */
+      .leaflet-popup-content-wrapper {
+        background: #111;
+        color: #F5F3EE;
+        border-radius: 0;
+        padding: 0;
+      }
+      .leaflet-popup-tip {
+        background: #111;
+      }
+      .leaflet-container {
+        font-family: 'Lato', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+    "leaflet": "https://esm.sh/leaflet@1.9.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-ivory text-charcoal antialiased">
+    <div id="root"></div>
+  </body>
+</html>
